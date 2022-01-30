@@ -1,0 +1,63 @@
+html {
+    background-color: #5a5a5a;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.center {
+    text-align: center;
+}
+
+.main {
+    padding-top: 50px;
+}
+
+.alert {
+    position: relative;
+    top: 40%;
+    left: 0;
+    z-index: 1000;
+    font-size: 3em;
+    font-family: monospace;
+    font-weight: bold;
+    opacity: 0.4;
+    transform: rotate(-10deg);
+}
+
+#board {
+    position: relative;
+    margin: auto;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+}
+
+#score {
+    font-size: 4em;
+    font-family: monospace;
+    margin: auto;
+    color: white;
+    text-align: center;
+    width: 80px;
+    height: 100px;
+    line-height: 100px;
+}
+
+#preview {
+    padding-top: 50px;
+    position: relative;
+    margin: auto;
+    height: 80px;
+    width: 80px;
+}
+
+.cell {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    outline: 1px solid #fff;
+    outline-offset: -2px;
+}
